@@ -37,7 +37,7 @@ The trainer uses the official leaf-level train/test split, reports loss and accu
 .\.venv313\Scripts\python.exe -m streamlit run app.py
 ```
 
-Open the local URL printed by Streamlit. The app loads the included checkpoint automatically. If it is missing or invalid, the app opens its setup screen, where you can train a model or import a trusted checkpoint.
+Open the local URL (http://localhost:8501/) printed by Streamlit. The app loads the included checkpoint automatically. If it is missing or invalid, the app opens its setup screen, where you can train a model or import a trusted checkpoint.
 
 When training is needed, choose "Download data and train" to start a separate local training process. The page shows the current job status and the latest training output; it switches to prediction mode once the first validated checkpoint is saved. Keep the computer on. CPU-only training may take hours or longer. Closing the browser does not stop training.
 
