@@ -58,4 +58,4 @@ Each row satisfies `TP + TN + FP + FN = 10,709`. For each class, the counts come
 
 ## Interpretation Note
 
-The test split is also used during training to select the saved checkpoint, so the counts describe performance on the checkpoint-selection split rather than an independent, untouched final test set. See `evaluation_report.md` for aggregate metrics and additional evaluation limitations.
+The test split is also used during training to select the saved checkpoint, so the counts describe performance on the checkpoint-selection split rather than an independent, untouched final test set. See `evaluation_report.md` for aggregate metrics.
